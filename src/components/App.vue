@@ -3,7 +3,7 @@
     <header class="py-3 mb-3 border-bottom">
       <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
         <router-link to="/" class="pull-left" style="width: 40px;">
-          <img src="/favicon/apple-touch-icon.png" width="40px"/>
+          <img src="favicon/apple-touch-icon.png" width="40px"/>
         </router-link>
 
         <div class="d-flex align-items-center" style="width: 50%;">
