@@ -1,0 +1,10 @@
+{
+    "require": {
+        "symfony/dom-crawler": "^5.4",
+        "fabpot/goutte": "^4.0",
+        "symfony/debug": "^4.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+    }
+}

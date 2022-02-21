@@ -1,0 +1,16 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+
+.card-img-top {
+	height: 300px;
+	width: 100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+.card,
+.card:hover{
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "lego-mocs.neuhaus.nrw",
+  "version": "1.0.0",
+  "description": "Lego MOCs",
+  "author": "Marc Neuhaus <marc@neuhaus.nrw>",
+  "private": true,
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/polyfill": "^7.4.3",
+    "@symfony/webpack-encore": "^0.26.0",
+    "axios": "^0.16.1",
+    "core-js": "^3.0.0",
+    "intl": "^1.2.5",
+    "jquery": "^3.1.1",
+    "stylus": "^0.56.0",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.0.1",
+    "vue-loader": "^15.7.0",
+    "vue-resource": "^1.2.0",
+    "vue-router": "^2.2.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuex": "^2.1.2",
+    "webpack-notifier": "^1.6.0"
+  },
+  "browserslist": [
+    "> 2%",
+    "last 2 versions",
+    "IE 11",
+    "not dead"
+  ],
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
