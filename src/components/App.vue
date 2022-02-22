@@ -8,7 +8,7 @@
 
         <div class="d-flex align-items-center" style="width: 50%;">
           <form class="me-3" style="width: 100%;">
-            <input type="search" class="form-control" v-model="search" placeholder="LEGO Set Nummer..." aria-label="Search" style="width: 100%;">
+            <input type="number" class="form-control" v-model="search" placeholder="LEGO Set Nummer..." aria-label="Search" style="width: 100%;">
           </form>
         </div>
       </div>
