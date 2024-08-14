@@ -33,11 +33,16 @@ upgrade:
 #	yarn upgrade
 	make build/dev
 
-docker/run:
-	docker run \
-		-v $(pwd)/static:/var/www \
-		-p 2080:80 \
-		mia3/web
+docker/build: #build/dev
+	docker build --platform linux/amd64 -t neuhausnrw/lego-moc .
+
+docker/tag-release:
+	@read -p "what kind of release is this? [major|minor|patch]: " SEMVER; \
+	gitsem $$SEMVER
+
+docker/push-image: docker/build
+	@docker login
+	docker push neuhausnrw/lego-moc
 
 update-dependencies:
 	yarn upgrade
